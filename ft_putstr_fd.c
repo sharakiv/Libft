@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 04:36:51 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/03 04:44:26 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:15:48 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

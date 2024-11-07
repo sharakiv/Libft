@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 00:55:12 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 09:51:27 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:13:08 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

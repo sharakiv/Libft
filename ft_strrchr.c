@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 18:59:06 by sharaki           #+#    #+#             */
-/*   Updated: 2024/10/25 19:27:53 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:13:25 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

@@ -6,12 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 20:24:00 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 08:24:54 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:13:53 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <unistd.h>
+#include "libft.h"
 
 static int	is_in_set(char c, const char *set)
 {

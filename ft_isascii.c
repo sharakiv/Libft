@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 16:12:16 by sharaki           #+#    #+#             */
-/*   Updated: 2024/10/24 16:22:46 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:22:40 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_isascii(int c)
 {

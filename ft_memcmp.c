@@ -6,12 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 19:09:44 by sharaki           #+#    #+#             */
-/*   Updated: 2024/10/29 00:53:45 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:17:11 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

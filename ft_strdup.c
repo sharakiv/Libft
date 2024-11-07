@@ -6,12 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 12:33:21 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 09:53:35 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:15:29 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <unistd.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

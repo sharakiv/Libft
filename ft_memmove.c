@@ -6,12 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 19:52:44 by sharaki           #+#    #+#             */
-/*   Updated: 2024/10/31 19:37:29 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:16:45 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

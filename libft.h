@@ -6,13 +6,15 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 06:36:51 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 11:11:13 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:35:00 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <limits.h>
+# include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -52,7 +54,7 @@ char				*ft_strtrim(char const *s1, char const *set);
 char				**ft_split(char const *s, char c);
 char				*ft_itoa(int n);
 char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void				ft_striteri(char *s, void (*f)(unsigned int, char*));
+void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putendl_fd(char *s, int fd);

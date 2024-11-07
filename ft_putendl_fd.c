@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 05:08:10 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 10:29:51 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:16:08 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

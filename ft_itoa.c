@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 21:41:38 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 08:48:55 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:22:53 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static int	count_digits(int n)
 {

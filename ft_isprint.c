@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 16:27:50 by sharaki           #+#    #+#             */
-/*   Updated: 2024/10/24 16:56:59 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:22:48 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

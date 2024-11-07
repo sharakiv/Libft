@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 07:36:06 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/06 18:11:04 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:15:42 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static int	count_words(char const *s, char c)
 {

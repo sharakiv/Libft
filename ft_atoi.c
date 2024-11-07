@@ -6,14 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 01:58:01 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/07 22:30:40 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:22:17 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

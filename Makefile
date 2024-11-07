@@ -6,7 +6,7 @@
 #    By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 06:42:14 by sharaki           #+#    #+#              #
-#    Updated: 2024/11/05 06:54:53 by sharaki          ###   ########.fr        #
+#    Updated: 2024/11/08 03:27:23 by sharaki          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,18 +51,34 @@ SRCS = ft_isalpha.c \
 	   ft_putendl_fd.c \
 	   ft_putnbr_fd.c \
 
+BONUS_SRCS = ft_lstnew_bonus.c \
+             ft_lstadd_front_bonus.c \
+             ft_lstsize_bonus.c \
+             ft_lstlast_bonus.c \
+             ft_lstadd_back_bonus.c \
+             ft_lstdelone_bonus.c \
+             ft_lstclear_bonus.c \
+             ft_lstiter_bonus.c \
+             ft_lstmap_bonus.c
+
+
+
 OBJS = $(SRCS:.c=.o)
+BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
+bonus: $(OBJS) $(BONUS_OBJS)
+	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)	
+
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	$(RM) $(NAME)

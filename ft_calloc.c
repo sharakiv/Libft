@@ -6,14 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 10:39:35 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/05 08:29:00 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 03:22:28 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
