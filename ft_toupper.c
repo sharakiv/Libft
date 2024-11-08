@@ -6,11 +6,11 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 18:24:15 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/08 03:14:11 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 06:12:32 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "stdio.h"
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

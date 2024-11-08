@@ -6,7 +6,7 @@
 /*   By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 06:36:51 by sharaki           #+#    #+#             */
-/*   Updated: 2024/11/08 03:35:00 by sharaki          ###   ########.fr       */
+/*   Updated: 2024/11/08 05:39:14 by sharaki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,9 @@
 
 # include <limits.h>
 # include <stdint.h>
+# include <stdio.h>
 # include <stdlib.h>
+# include <string.h>
 # include <unistd.h>
 
 typedef struct s_list
