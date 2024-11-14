@@ -6,7 +6,7 @@
 #    By: sharaki <sharaki@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 06:42:14 by sharaki           #+#    #+#              #
-#    Updated: 2024/11/08 07:02:28 by sharaki          ###   ########.fr        #
+#    Updated: 2024/11/09 03:43:22 by sharaki          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,7 +75,7 @@ bonus: .bonus
 
 .bonus: $(OBJS) $(BONUS_OBJS)
 	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
-	touch .bonus	
+	touch .bonus
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -89,3 +89,7 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
+
+so:
+	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS)
+	gcc -nostartfiles -shared -o libft.so $(OBJS)
